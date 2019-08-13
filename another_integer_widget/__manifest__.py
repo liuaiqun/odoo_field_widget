@@ -1,8 +1,7 @@
 
 {
-    "name": "Another Field widget of Integer",
-    "summary": "Reimppetion  Integer field widget of odoo web module "
-               "for learn odoo web client programming .",
+    "name": "Another Integer Widget",
+    "description": "Reimplementation  of odoo  basic field widget -- Integer ",
     "category": "Web",
     "version": "12.0.0.0.0",
     "license": "LGPL-3",

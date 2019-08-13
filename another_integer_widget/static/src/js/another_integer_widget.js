@@ -36,7 +36,7 @@ odoo.define('another_widget_integer.AnotherFieldInteger', function (require) {
         */
         _formatValue: function (value) {
             
-            console.log("another integer: formatValue")
+            console.log("[another_integer_widget.js] function:_formatValue()")
             if (typeof value === 'string') {
                 if (!/^[0-9]+-/.test(value)) {
                     throw new Error('"' + value + '" is not an integer or a virtual id');

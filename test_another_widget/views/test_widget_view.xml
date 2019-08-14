@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <!-- Tree view -->
+    <record id="view_tree_config" model="ir.ui.view">
+      <field name="name">config list</field>
+      <field name="model">test.widget.config</field>
+      <field name="arch" type="xml">
+        <tree >
+          <field name="id"/>
+          <field name="name"/>
+          <field name="module_name"/>
+          <field name="form_type"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="view_tree_test" model="ir.ui.view">
+      <field name="name">test</field>
+      <field name="model">test.widget.model</field>
+      <field name="arch" type="xml">
+        <tree >
+          <field name="id"/>
+          <field name="name"/>
+        </tree>
+      </field>
+    </record>
+
+   
+   
+    <!-- Form view -->
+    
+    
+    <record id="view_form_config" model="ir.ui.view">
+      <field name="name">config data</field>
+      <field name="model">test.widget.config</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+            <field name="id"/>
+            <field name="name"/>
+            <field name="module_name"/>
+            <field name="form_type"/>
+            <field name="view_arch_default"/>
+            <field name="view_arch_another"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+    
+    
+    <record id="view_form_test" model="ir.ui.view">
+      <field name="name">test form</field>
+      <field name="model">test.widget.model</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group name="main">
+              <field name="name" />
+            </group>
+            <group name="test">
+              <field name="id" />
+            </group>
+            <group name="detail">
+            </group>
+          </sheet>
+        </form>
+
+      </field>
+    </record>
+ 
+
+
+
+
+</odoo>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="record_01" model="test.widget.model">
+            <field name="name">record o1</field>
+            <field name="default_integer">101</field>
+            <field name="another_integer">102</field>
+
+            <field name="default_float">201.123</field>
+            <field name="another_float">202.456</field>
+    
+            <field name="default_float_time">301.123</field>
+            <field name="another_float_time">302.456</field>
+    
+            <field name="default_float_factor">0.501</field>
+            <field name="another_float_factor">0.105</field>
+        
+            <field name="default_float_percentage">501.1</field>
+            <field name="another_float_percentage">502.2</field>
+            
+            
+        </record>
+    </data>
+</odoo>

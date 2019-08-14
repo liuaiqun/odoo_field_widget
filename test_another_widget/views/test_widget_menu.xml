@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- 主菜单  -->
+    <menuitem id="test_widget_mainmenu"  
+              name="Test Another Widget"/>
+              
+              
+    <!-- 二级菜单 -->     
+
+    <menuitem id="test_basic_widget_submenu"  
+               name="Test Basic Widget" 
+               parent="test_widget_mainmenu" />
+               
+    <menuitem id="test_rel_widget_submenu"  
+               name="Test Relational Widget" 
+               parent="test_widget_mainmenu" />
+
+    <menuitem id="config_formview_submenu"  
+               name="Form View Config" 
+               parent="test_widget_mainmenu" />
+
+    <!-- 三级菜单  under config_formview_submenu -->   
+
+    <act_window id="action_formview_config"
+                name="form_view_config"
+                res_model="test.widget.config"
+                view_mode="tree,form"  
+     />
+             
+    <menuitem id="test_widget_config"
+              parent="config_formview_submenu"
+              name="Config Form View" 
+              action="action_formview_config"
+    />
+
+    
+    <!-- 三级菜单   under test_basic_widget_submenu -->
+    
+    <!-- 3.1  numeric -->
+    <act_window id="action_numeric_widget"
+                name="Numeric Widget"
+                res_model="test.widget.model"
+                context="{'form_type':'form_basic_numeric'}"
+                view_mode="tree,form" />
+                
+    <menuitem id="menu_numeric_widget"
+                parent="test_basic_widget_submenu"
+                name="Numeric Widget"
+                action="action_numeric_widget" />
+    
+    <!-- 3.2  string -->
+    <act_window id="action_string_widget"
+                name="String Widget"
+                res_model="test.widget.model"
+                context="{'form_type':'form_basic_string'}"
+                view_mode="tree,form"
+     />
+
+    <menuitem id="menu_string_widget"
+                parent="test_basic_widget_submenu"
+                name="String Widget"
+                action="action_string_widget"
+    />
+    
+    
+    
+    <!-- 三级菜单   under test_rel_widget_submenu -->
+    
+    <!-- 2.x  No formtype -->
+    <act_window id="action_test_widget"
+                name="test Widget"
+                res_model="test.widget.model"
+                view_mode="tree,form" />
+                
+    <menuitem id="menu_test_widget"
+                parent="test_rel_widget_submenu"
+                name="test Widget"
+                action="action_test_widget" />
+    
+                
+</odoo>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="num_01" model="test.widget.config">
+            <field name="name">integer</field>
+            <field name="module_name">another_integer_widget</field>
+            <field name="form_type">form_basic_numeric</field>
+            <field name="view_arch_default">field name="default_integer" widget="integer"</field>
+            <field name="view_arch_another">field name="another_integer" widget="another_integer"</field>
+        </record>
+        
+        <record id="num_02" model="test.widget.config">
+            <field name="name">float</field>
+            <field name="module_name">another_float_widget</field>
+            <field name="form_type">form_basic_numeric</field>
+            <field name="view_arch_default">field name="default_float" widget="float"</field>
+            <field name="view_arch_another">field name="another_float" widget="another_float"</field>
+        </record>
+    </data>
+</odoo>
+
+ 

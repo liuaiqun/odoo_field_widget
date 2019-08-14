@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="string_01" model="test.widget.config">
+            <field name="name">char</field>
+            <field name="module_name">another_char_widget</field>
+            <field name="form_type">form_basic_string</field>
+            <field name="view_arch_default">field name="default_char" widget="char"</field>
+            <field name="view_arch_another">field name="another_char" widget="another_char"</field>
+        </record>
+        
+        <record id="string_02" model="test.widget.config">
+            <field name="name">copy_clipboard_char</field>
+            <field name="module_name">another_copy_clipboard_char_widget</field>
+            <field name="form_type">form_basic_string</field>
+            <field name="view_arch_default">field name="default_copy_clipboard_char" widget="copy_clipboard_char"</field>
+            <field name="view_arch_another">field name="another_copy_clipboard_char" widget="another_copy_clipboard_char"</field>
+        </record>
+    </data>
+</odoo>

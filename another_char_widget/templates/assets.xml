@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2018 Simone Orsi - Camptocamp SA
+    License LGPLv3.0 or later (https://www.gnu.org/licenses/lgpl-3.0.en.html).
+-->
+<odoo>
+    <template id="assets_backend" name="another_char_widget assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/another_char_widget/static/src/js/another_char_widget.js" />
+        </xpath>
+    </template>
+</odoo>

@@ -1,6 +1,6 @@
 
 
-odoo.define('another_widget_integer.AnotherFieldInteger', function (require) {
+odoo.define('another_integer_widget.AnotherFieldInteger', function (require) {
 "use strict";
 
 

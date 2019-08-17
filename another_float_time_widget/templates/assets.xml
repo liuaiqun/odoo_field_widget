@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <template id="assets_backend" name="another_float_time_widget assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/another_float_time_widget/static/src/js/another_float_time_widget.js" />
+        </xpath>
+    </template>
+</odoo>

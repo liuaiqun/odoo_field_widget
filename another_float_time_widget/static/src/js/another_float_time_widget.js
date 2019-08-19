@@ -11,7 +11,7 @@ odoo.define('another_float_time_widget.another_field_float_time', function (requ
     var _t = core._t;
 
     
-    var AnotherFieldFloatTimw = basic_fields.FieldFloat.extend({
+    var AnotherFieldFloatTime = basic_fields.FieldFloat.extend({
         
         // this is not strictly necessary, as for this widget to be used, the 'widget'
         // attrs must be set to 'float_time', so the formatType is automatically
@@ -27,7 +27,7 @@ odoo.define('another_float_time_widget.another_field_float_time', function (requ
     });
 
 
-    registry.add('another_float_time', AnotherFieldFloatTimw);
+    registry.add('another_float_time', AnotherFieldFloatTime);
 });
 
 

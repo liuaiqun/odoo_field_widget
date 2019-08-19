@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <template id="assets_backend" name="another_percentage_widget assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/another_percentage_widget/static/src/js/another_percentage_widget.js" />
+        </xpath>
+    </template>
+</odoo>

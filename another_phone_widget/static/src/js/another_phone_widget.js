@@ -9,7 +9,7 @@ odoo.define('another_phone_widget.another_field_phone', function (require) {
     
     var AnotherFieldPhone = basic_fields.FieldEmail.extend({
         
-        className: 'o_field_phone',
+        className: 'o_field_another_phone',
         prefix: 'tel',
 
         //--------------------------------------------------------------------------

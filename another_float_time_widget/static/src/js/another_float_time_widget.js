@@ -11,7 +11,7 @@ odoo.define('another_float_time_widget.another_field_float_time', function (requ
     var _t = core._t;
 
     /**==========================================================
-    * widget∂®“Â
+    * widgetÂÆö‰πâ
     * from  odoo\addons\web\static\src\js\fields\basic_fields.js
     ==========================================================*/
     
@@ -32,8 +32,8 @@ odoo.define('another_float_time_widget.another_field_float_time', function (requ
 
 
     /**==========================================================
-     * ∏Ò ΩªØ
-     * Ref£∫ odoo\addons\web\static\src\js\fields\field_utils.js
+     * Ê†ºÂºèÂåñ
+     * RefÔºö odoo\addons\web\static\src\js\fields\field_utils.js
      ==========================================================*/
 
     
@@ -83,8 +83,8 @@ odoo.define('another_float_time_widget.another_field_float_time', function (requ
     
     
     /**==========================================================
-     * ◊¢≤·  
-     * Ref£∫  odoo\addons\web\static\src\js\fields\field_registry.js
+     * Ê≥®ÂÜå  
+     * RefÔºö  odoo\addons\web\static\src\js\fields\field_registry.js
      ==========================================================*/
     registry.add('another_float_time', AnotherFieldFloatTime);
     field_utils.format['another_float_time'] = AnotherFormatFloatTime;

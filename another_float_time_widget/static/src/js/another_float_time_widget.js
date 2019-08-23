@@ -71,10 +71,10 @@ odoo.define('another_float_time_widget.another_field_float_time', function (requ
         }
         var float_time_pair = value.split(":");
         if (float_time_pair.length !== 2)
-            #return factor * parseFloat(value);
+            // return factor * parseFloat(value);
             return factor * field_utils.parse.float(value);
-        #var hours = parseInteger(float_time_pair[0]);
-        #var minutes = parseInteger(float_time_pair[1]);
+        // var hours = parseInteger(float_time_pair[0]);
+        // var minutes = parseInteger(float_time_pair[1]);
         var hours = field_utils.parse.parse.integer(float_time_pair[0]);
         var minutes = field_utils.parse.parse.integer(float_time_pair[1]);
         return factor * (hours + (minutes / 60));

@@ -17,6 +17,32 @@
             <field name="view_arch_default">field name="default_float" widget="float"</field>
             <field name="view_arch_another">field name="another_float" widget="another_float"</field>
         </record>
+        
+        
+        <record id="num_03" model="test.widget.config">
+            <field name="name">float_time</field>
+            <field name="module_name">another_float_time_widget</field>
+            <field name="form_type">form_basic_numeric</field>
+            <field name="view_arch_default">field name="default_float_time" widget="float_time"</field>
+            <field name="view_arch_another">field name="another_float_time" widget="another_float_time"</field>
+        </record>
+      
+        <record id="num_04" model="test.widget.config">
+            <field name="name">float_factor</field>
+            <field name="module_name">another_float_factor_widget</field> 
+            <field name="form_type">form_basic_numeric</field>
+            <field name="view_arch_default">field name="default_float_factor" options="{'factor': 0.5}" digits="[16,2]" widget="float_factor"   </field>
+            <field name="view_arch_another">field name="another_float_factor" options="{'factor': 0.5}" digits="[16,2]" widget="another_float_factor" </field>
+        </record>
+        
+        <record id="num_05" model="test.widget.config">
+            <field name="name">float_percentage</field>
+            <field name="module_name">another_percentage_widget</field> 
+            <field name="form_type">form_basic_numeric</field>
+            <field name="view_arch_default">field name="default_float_percentage"  widget="percentage"   </field>
+            <field name="view_arch_another">field name="another_float_percentage"  widget="another_percentage" </field>
+        </record>
+        
     </data>
 </odoo>
 

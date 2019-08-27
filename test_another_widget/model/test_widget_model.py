@@ -42,14 +42,14 @@ class TestWidgetModel(models.Model):
     default_text = fields.Text()
     another_text = fields.Text()
     
-    default_copy_clipboard_Text = fields.Text()
-    another_copy_clipboard_Text = fields.Text()
+    default_copy_clipboard_text = fields.Text()
+    another_copy_clipboard_text = fields.Text()
     
-    default_email = fields.Text()
-    another_email = fields.Text()
+    default_email = fields.Char()
+    another_email = fields.Char()
     
-    default_phone = fields.Text()
-    another_phone = fields.Text()
+    default_phone = fields.Char()
+    another_phone = fields.Char(default="13912345678")
 
     
     #------------------

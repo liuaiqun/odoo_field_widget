@@ -13,12 +13,33 @@
             <field name="default_float_time">301.123</field>
             <field name="another_float_time">302.456</field>
     
-            <field name="default_float_factor">0.501</field>
-            <field name="another_float_factor">0.105</field>
+            <field name="default_float_factor">666.666</field>
+            <field name="another_float_factor">888.888</field>
         
             <field name="default_float_percentage">501.1</field>
             <field name="another_float_percentage">502.2</field>
             
+            
+            <!--  string -->
+            
+            <field name="default_char">abcde</field>
+            <field name="another_char">ABCDE</field>
+            
+            <field name="default_copy_clipboard_char">Copy Me, Please </field>
+            <field name="another_copy_clipboard_char">please copy me, too</field>
+            
+            <field name="default_text">long text string</field>
+            <field name="another_text">Long Text String</field>
+    
+            <field name="default_copy_clipboard_text">Copy This Long Text String, Please</field>
+            <field name="another_copy_clipboard_text">please copy this long text string, too</field>
+            
+            <field name="default_email">demo@sina.com</field>
+            <field name="another_email">demo@odoo.com</field>
+            
+            <field name="default_phone">+86-13912345678</field>
+            <field name="another_phone">010-88889999,34</field>
+    
             
         </record>
     </data>
